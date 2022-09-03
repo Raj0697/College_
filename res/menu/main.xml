@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.techwoods_new.MainActivity" >
+
+    <item android:id="@+id/about" android:showAsAction="ifRoom" android:title="@string/about">
+        <menu>
+            <item android:id="@+id/mcc" android:showAsAction="ifRoom" android:title="@string/mcc"/>
+            <item android:id="@+id/mca" android:showAsAction="ifRoom" android:title="@string/mca"/>
+            <item android:id="@+id/tw" android:showAsAction="ifRoom" android:title="@string/techwoods"/>
+        </menu>
+    </item>
+    <item android:id="@+id/Events" android:showAsAction="ifRoom" android:title="@string/events"></item>
+    <item android:id="@+id/signin" android:showAsAction="ifRoom" android:title="@string/signin"></item>
+    <item android:id="@+id/contact" android:showAsAction="ifRoom" android:title="@string/contact"></item>
+    <item android:id="@+id/developer" android:title="@string/developer" android:showAsAction="ifRoom"></item>
+
+</menu>
